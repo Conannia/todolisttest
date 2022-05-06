@@ -1,0 +1,24 @@
+.item {
+    justify-content: space-between;
+    width: 50vw;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+
+
+}
+
+@media (max-width: 768px) {
+    .item {
+        display: inline;
+    }
+
+}
+
+
+
+.del {
+    margin-right: 1rem;
+}
+
